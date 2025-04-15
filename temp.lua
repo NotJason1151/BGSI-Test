@@ -44,27 +44,27 @@ end
 local ISLAND_DATA = {
     {
         name = "Floating Island",
-        position = Vector3.new(100, 5, 50),  -- Update coordinates
+        position = Vector3.new(-2, 421, 115),  -- Update coordinates
         duration = 60
     },
     {
         name = "Outer Space",
-        position = Vector3.new(200, 10, -30),  -- Update coordinates
+        position = Vector3.new(57, 2659, 48),  -- Update coordinates
         duration = 60
     },
     {
         name = "The Void",
-        position = Vector3.new(-150, 0, 80),  -- Update coordinates
+        position = Vector3.new(1, 6870, 76),  -- Update coordinates
         duration = 60
     },
     {
         name = "Twilight",
-        position = Vector3.new(0, 20, 200),  -- Update coordinates
+        position = Vector3.new(18, 10146, 84),  -- Update coordinates
         duration = 60
     },
     {
         name = "Zen",
-        position = Vector3.new(300, 5, -100),  -- Update coordinates
+        position = Vector3.new(-95, 15970, 3),  -- Update coordinates
         duration = 60
     }
 }
