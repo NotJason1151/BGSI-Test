@@ -87,7 +87,7 @@ local function UnlockIslandsSequentially()
             tween.Completed:Connect(function()
                 completed = true
                 print("Reached", ISLAND_DATA[IslandCheckNumber].name)
-                IslandCheckNumber = IslandCheckNumber + 1
+                IslandCheckNumber = IslandCheckNumber+1
             end)
             
             -- Wait check loop
