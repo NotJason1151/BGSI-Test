@@ -99,7 +99,7 @@ local function UnlockIslandsSequentially()
                 warn("Failed to unlock:", ISLAND_DATA[IslandCheckNumber].name)
             end
         else
-            black()
+            print(ISLAND_DATA[IslandCheckNumber].name, "is unlocked already!")
         end
     end
 end
