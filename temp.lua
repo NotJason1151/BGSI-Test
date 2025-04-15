@@ -69,10 +69,6 @@ local ISLAND_DATA = {
     }
 }
 
-local function black()
-    print('black')
-end
-
 IslandCheckNumber = 1
 
 local function UnlockIslandsSequentially()
