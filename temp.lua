@@ -101,6 +101,7 @@ local function UnlockIslandsSequentially()
             end
         else
             print(ISLAND_DATA[IslandCheckNumber].name, "is unlocked already!")
+            IslandCheckNumber = IslandCheckNumber+1
         end
     end
 end
